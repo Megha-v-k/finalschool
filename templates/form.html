@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Form</title>
+
+<style type="text/css">
+
+</style>
+</head>
+<body>
+<h1 style="text-align:center">Application Form</h1>
+<form method="post" action="">
+    {% csrf_token %}
+    <table>
+        <tr>
+            <td>
+                Username:
+            </td>
+            <td>
+                <input type="text" name="username" placeholder="Enter the Username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date Of Birth:
+                <td>
+                    <input type="date" name="date" placeholder="Enter your name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Age:
+                <td>
+                    <input type="number" name="age" placeholder="select your age">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Phone Number:
+            </td>
+            <td>
+                <select>
+                    <option>+91</option>
+            </select>
+            <input type="phone" name="phone" placeholder="987">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Email ID:
+            <td>
+            <input type="email" name="email" placeholder="Example1@*8">
+            </td>
+        </tr>
+        <tr>
+        <tr>
+            <td>
+                Gender:
+                <td>
+                    <input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female
+                </td>
+        </tr>
+        <tr>
+            <td>
+                Address:
+                <td>
+            <textarea rows="5" cols="15" placeholder="Address"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Materials:
+                <td>
+            <input type="checkbox" value="notebook">Notebook
+            <input type="checkbox" value="pen">Pen
+            <input type="checkbox" value="exam papers">Exam Papers
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Department:
+                <td>
+              <select>
+                  <option name="dept" value="">dept</option>
+                  <option name="dept" value="Science">Science</option>
+                  <option name="dept" value="Commerce">Commerce</option>
+                  <option name="dept" value="Humanities">Humanities</option>
+              </select>
+        </td>
+        <tr>
+        <td>
+            Course:
+            <td>
+        <select>
+            <option name="dept" value="Science">...Select Option...</option>
+            <option name="" value="Electronics">Electronics Science</option><option name="" value="">commerce</option>
+            <option name="" value="Electronics">Biology Science</option>
+            <option name="" value="Electronics">Computer Science</option>
+        </select>
+        </td>
+    </tr>
+        <tr>
+            <td>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+
+
+            </td>
+        </tr>
+
+
+
+
+
+<!--        <td>-->
+<!--            Courses:-->
+<!--            <select>-->
+
+<!--        </select>-->
+<!--        <br>-->
+<!--        <select>-->
+<!--            <option name="" value="Commerce">Commerce</option>-->
+<!--            <option name="" value="Electronics">Computer Application</option>-->
+<!--            <option name="" value="Electronics">Finance</option>-->
+<!--            <option name="" value="Electronics">Economics</option>-->
+<!--        </select>-->
+<!--        <br>-->
+<!--        <select>-->
+<!--            <option name="" value="Humanities">Humanities</option>-->
+<!--            <option name="" value="Electronics">Philosophy</option>-->
+<!--            <option name="" value="Electronics">History</option>-->
+<!--            <option name="" value="Electronics">Law</option>-->
+<!--        </select>-->
+<!--    </td>-->
+<!--    </tr>-->
+<!--         <tr>-->
+<!--        <td>-->
+<!--            Materials:-->
+<!--        </td>-->
+<!--        <td>-->
+
+<!--        </td>-->
+<!--    </tr>-->
+<!--        <tr>-->
+<!--            <td>-->
+<!--                Purpose:-->
+<!--            </td>-->
+<!--            <td>-->
+<!--                <select>-->
+<!--                    <option name="e" value="Purpose">Purpose</option>-->
+<!--                    <option name="e" value="Enquiry">Enquiry</option>-->
+<!--                    <option name="e" value="Place Order">Place order</option>-->
+<!--                    <option name="e" value="Return">Return</option>-->
+<!--                </select>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>-->
+<!--                 <input type="submit">-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        <tr>-->
+<!--            <td>-->
+<!--                <button type="button">Button</button>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--    </table>-->
+</form>
+
+</body>
+</html>
